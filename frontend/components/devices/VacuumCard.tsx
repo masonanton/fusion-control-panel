@@ -35,7 +35,7 @@ export default function VacuumCard({ tel, setTel }: { tel: Telemetry; setTel: Re
                     </CardTitle>
                     <Badge variant={pumpOn ? "default" : "secondary"}>{pumpOn ? "Running" : "Stopped"}</Badge>
                 </div>
-                <CardDescription>Backing or turbo controller (mocked)</CardDescription>
+                <CardDescription>Mocked for now</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
                 <div className="grid grid-cols-2 gap-4">

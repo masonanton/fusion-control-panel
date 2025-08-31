@@ -39,7 +39,7 @@ export default function HVCard({ tel, setTel }: { tel: Telemetry; setTel: React.
                         {tel.hv.fault ? "Fault" : armed ? "Enabled" : "Disabled"}
                     </Badge>
                 </div>
-                <CardDescription>Analog or Serial‑controlled (mocked)</CardDescription>
+                <CardDescription>Mocked for now</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
                 <div className="grid grid-cols-2 gap-4">
