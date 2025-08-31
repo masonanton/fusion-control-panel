@@ -38,7 +38,7 @@ export default function MFCCard({ tel, setTel }: { tel: Telemetry; setTel: React
                     </CardTitle>
                     <Badge variant={tel.mfc.valveOpen ? "default" : "secondary"}>{tel.mfc.valveOpen ? "Valve Open" : "Valve Closed"}</Badge>
                 </div>
-                <CardDescription>MCV‑10 sccm (mocked)</CardDescription>
+                <CardDescription>Mocked for now</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
                 <div className="grid grid-cols-2 gap-4">
@@ -56,7 +56,7 @@ export default function MFCCard({ tel, setTel }: { tel: Telemetry; setTel: React
                             if (!Number.isNaN(v)) setTel((t) => ({ ...t, mfc: { ...t.mfc, setpoint: Math.max(0, Math.min(10, v)) } }));
                         }} />
                     </div>
-                    <SubtleHelp>Wire to your backend later: POST /setpoint, /valve</SubtleHelp>
+                    <SubtleHelp>Wire to backend later: POST /setpoint, /valve</SubtleHelp>
                 </div>
             </CardContent>
             <CardFooter className="flex items-center justify-between">

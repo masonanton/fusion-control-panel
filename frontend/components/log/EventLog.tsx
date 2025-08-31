@@ -25,7 +25,7 @@ export default function EventLog() {
                 <CardTitle className="flex items-center gap-2 text-lg">
                     <Activity className="h-5 w-5" /> Event Log
                 </CardTitle>
-                <CardDescription>Recent commands & system notices</CardDescription>
+                <CardDescription>Recent commands & system notices. Simulated for now</CardDescription>
             </CardHeader>
             <CardContent>
                 <div className="max-h-56 overflow-auto rounded-md border">
